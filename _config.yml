@@ -1,9 +1,9 @@
 # Setup
-title: Daniel's Blog 
+title: Daniel's GLD Portfolio 
 url: http://dagleaves.com/gld-portfolio
 paginate: 1
 paginate_path: "/page:num/"
-permalink: /:title
+permalink: /gld-portfolio/:title
 
 # Gems
 plugins:
@@ -51,19 +51,19 @@ nav:
     url: /gld-portfolio
 
   - title: About Me
-    url: about-me
+    url: /gld-portfolio/about-me
 
   - title: Fundamentals of Machine Learning
-    url: fundamentals-of-machine-learning
+    url: /gld-portfolio/fundamentals-of-machine-learning
   
   - title: Collaboration
-    url: collaboration
+    url: /gld-portfolio/collaboration
 
   - title: Technical Communication
-    url: technical-communication
+    url: /gld-portfolio/technical-communication
 
   - title: Automotive Diagnotistic Assistant
-    url: automotive-diagnostic-assistant
+    url: /gld-portfolio/automotive-diagnostic-assistant
     
   # - title: Resume
   #   url: /resume
