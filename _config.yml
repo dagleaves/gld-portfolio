@@ -3,7 +3,7 @@ title: Daniel's GLD Portfolio
 url: http://dagleaves.com/gld-portfolio
 paginate: 1
 paginate_path: "/page:num/"
-permalink: /gld-portfolio/:title
+permalink: /:title
 
 # Gems
 plugins:
