@@ -3,7 +3,7 @@ title: Daniel's Blog
 url: http://dagleaves.com/gld-portfolio
 paginate: 1
 paginate_path: "/page:num/"
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:title
 
 # Gems
 plugins:
@@ -48,10 +48,22 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Home
-    url: /archive
-    
-  - title: Resume
-    url: /resume
+    url: /
 
-  - title: About
-    url: /about
+  - title: About Me
+    url: /about-me
+
+  - title: Fundamentals of Machine Learning
+    url: /fundamentals-of-machine-learning
+  
+  - title: Collaboration
+    url: /collaboration
+
+  - title: Technical Communication
+    url: /technical-communication
+
+  - title: Automotive Diagnotistic Assistant
+    url: /automotive-diagnostic-assistant
+    
+  # - title: Resume
+  #   url: /resume
