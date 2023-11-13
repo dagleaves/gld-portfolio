@@ -48,22 +48,22 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Home
-    url: /
+    url: /gld-portfolio
 
   - title: About Me
-    url: /about-me
+    url: about-me
 
   - title: Fundamentals of Machine Learning
-    url: /fundamentals-of-machine-learning
+    url: fundamentals-of-machine-learning
   
   - title: Collaboration
-    url: /collaboration
+    url: collaboration
 
   - title: Technical Communication
-    url: /technical-communication
+    url: technical-communication
 
   - title: Automotive Diagnotistic Assistant
-    url: /automotive-diagnostic-assistant
+    url: automotive-diagnostic-assistant
     
   # - title: Resume
   #   url: /resume
