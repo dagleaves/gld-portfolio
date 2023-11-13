@@ -1,0 +1,57 @@
+# Setup
+title: Daniel's Blog 
+url: http://dagleaves.com/gld-portfolio
+paginate: 1
+paginate_path: "/page:num/"
+permalink: /:categories/:year/:month/:day/:title
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: G-Q3MZVJ59ZZ
+
+# Specify the author for blog posts
+author:
+  name: Daniel Gleaves
+  url: https://github.com/dagleaves
+  email: daniel@dagleaves.com
+
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: Home
+    url: /archive
+    
+  - title: Resume
+    url: /resume
+
+  - title: About
+    url: /about
