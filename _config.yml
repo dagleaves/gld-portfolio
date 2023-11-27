@@ -53,16 +53,16 @@ nav:
   - title: About Me
     url: /gld-portfolio/about-me
 
-  - title: Fundamentals of Machine Learning
-    url: /gld-portfolio/fundamentals-of-machine-learning
-  
-  - title: Collaboration
-    url: /gld-portfolio/collaboration
+  - title: Key Insights
+    subfolderitems:
+    - page: Fundamentals of Machine Learning
+      url: /gld-portfolio/fundamentals-of-machine-learning
+    - page: Collaboration
+      url: /gld-portfolio/collaboration
+    - page: Technical Communication
+      url: /gld-portfolio/technical-communication
 
-  - title: Technical Communication
-    url: /gld-portfolio/technical-communication
-
-  - title: Automotive Diagnotistic Assistant
+  - title: Leadership
     url: /gld-portfolio/automotive-diagnostic-assistant
     
   # - title: Resume
